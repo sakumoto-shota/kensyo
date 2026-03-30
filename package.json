@@ -1,0 +1,22 @@
+{
+  "name": "cloud-run-signal-test",
+  "version": "1.0.0",
+  "description": "Cloud Run SIGTERM/graceful shutdown verification",
+  "private": true,
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/main",
+    "start:dev": "nest start --watch"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.0",
+    "rxjs": "^7.8.0"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "typescript": "^5.7.0"
+  }
+}
